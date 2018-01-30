@@ -1,3 +1,9 @@
+As per the upstream Bitnami container, except that I add php composer to the image and a `composer.json` file to install graphql and its dependencies. The Wordpress plugin will need activating manually, and ensuring that permalinks are active (they should be).
+
+Then, visit http://127.0.0.1/graphql and you should see a graphql message - it'll be an error, but it's at least installed.
+
+This uses Tim Field's graphql-wp plugin from here: https://github.com/tim-field/graphql-wp
+
 [![CircleCI](https://circleci.com/gh/bitnami/bitnami-docker-wordpress/tree/master.svg?style=shield)](https://circleci.com/gh/bitnami/bitnami-docker-wordpress/tree/master)
 [![Slack](https://img.shields.io/badge/slack-join%20chat%20%E2%86%92-e01563.svg)](http://slack.oss.bitnami.com)
 
